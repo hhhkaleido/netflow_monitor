@@ -1,0 +1,70 @@
+# Environment and secrets
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+credentials.*
+secrets.*
+venv/
+.venv/
+env/
+
+# Local project instructions
+AGENTS.md
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Build outputs and executables
+bin/
+build/
+dist/
+*.exe
+*.o
+*.obj
+*.dll
+*.spec
+py/build/
+prog_des_py/
+lib/
+js/
+
+# Removed legacy C implementation
+src/
+include/
+bin/
+build.bat
+py/gui_app.py
+
+# Generated visualizations and runtime output
+output/
+*.log
+subgraph*.html
+target_subgraph*.html
+
+# Local packet captures and generated datasets
+data/*.pcap
+data/*.pcapng
+data/extracted_*.csv
+data/processed_*.csv
+
+# Editors and OS metadata
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Local tool state
+.deepeval/
+
+# Superseded local notes
+Readme.txt
+update.txt
